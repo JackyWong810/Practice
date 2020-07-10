@@ -19,6 +19,7 @@ int main()
 	mainloop();
 }
 
+//主循環
 void mainloop()
 {
 	while (true)
@@ -31,6 +32,7 @@ void mainloop()
 	}
 }
 
+//輸入公式計算結果並打印結果，判斷結果等於24則打印“true”，否則打印“false”
 void tureORfalse()
 {
 	int result = 0;
